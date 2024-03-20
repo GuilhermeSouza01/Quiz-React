@@ -24,6 +24,8 @@ const initialState = {
   secondsRemaining: null,
 };
 
+//Reducer
+
 function reducer(state, action) {
   switch (action.type) {
     case "dataReceived":
